@@ -1,0 +1,26 @@
+.mouth-container {
+  height: 50px; 
+  width: 50px;
+  position: absolute;
+  top: 67px;
+    left: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.character-container {
+  position: absolute;
+  bottom: -220px;
+  transform: scale(1.8);
+}
+
+.mouth-image {
+  max-height: 10px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

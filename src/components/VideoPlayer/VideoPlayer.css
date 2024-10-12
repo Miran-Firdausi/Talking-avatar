@@ -1,0 +1,14 @@
+.video-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+    background-color: #272727;
+}
+
+.video-player-container video {
+    width: 100%
+}

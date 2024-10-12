@@ -1,0 +1,39 @@
+.st0 {
+  fill: #33334d;
+}
+.st1 {
+  fill: #e63268;
+}
+.st2 {
+  fill: #c11e58;
+}
+.st3 {
+  fill: #f9ae83;
+}
+.st4 {
+  fill: #f8a279;
+}
+.st5 {
+  fill: #ffffff;
+}
+.st6 {
+  fill: #f58a69;
+}
+
+@keyframes raiseEyebrow {
+  0%,
+  100% {
+    transform: translateY(0); /* Eyebrows at rest */
+  }
+  50% {
+    transform: translateY(-1px); /* Raise eyebrows */
+  }
+}
+
+.eyebrow {
+  transition: transform 0.5s ease-in-out;
+}
+
+.raised {
+  transform: translateY(-1px);
+}
